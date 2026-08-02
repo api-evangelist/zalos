@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.zalos.ai/security
+probe: false
+url: https://www.zalos.ai/security
+certifications:
+- SOC 2 Type II
+- GDPR
+compliance_posture:
+- SOX-ready controls (immutable audit trails, role-based approvals)
+security_practices:
+- Enterprise API model licenses; customer data not used for model training
+- Encryption and tenant isolation
+- Session-level screen recording with full audit trails
+- EU data-region selection and right-to-erasure (GDPR)
+- Monthly vulnerability scans and quarterly penetration testing
+evidence:
+- source: https://www.zalos.ai/security
+  keywords:
+  - soc 2 type ii
+  - gdpr
+  - sox
+  - penetration testing
+notes: >-
+  Certifications and practices are as published on the Zalos /security page. No
+  public trust center subdomain, responsible-disclosure program, or security.txt
+  was found. No security contact email is published.

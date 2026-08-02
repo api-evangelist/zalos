@@ -1,7 +1,31 @@
 aid: zalos
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zalos.png
 name: Zalos
-description: Zalos is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zalos is a Y Combinator-backed (F25) company building AI "computer agents" for
+  finance operations. Rather than integrating through APIs, its agents log into a
+  company's existing systems — ERPs, accounting platforms, banks, invoicing and CFO
+  tools such as NetSuite and SAP — and operate the user interface the way a human
+  would, learned from screen recordings. Zalos automates repetitive, multi-step
+  finance workflows including reconciliation, transaction categorization, billing,
+  form filling, month-end close and cross-system KPI reporting, while building a
+  living process graph of an organization's finance operations for documentation and
+  compliance. Founded in 2025 by William Fairbairn (CEO) and Hung Hoang (CTO,
+  previously Apple Pay), the company is based in London and San Francisco and raised
+  a $3.6M seed round led by 14 Peaks. Because Zalos operates entirely through
+  computer-use automation of third-party interfaces, it does not currently publish a
+  public developer API, OpenAPI definition, SDKs or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/zalos/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Agents
+- Finance
+- Automation
+- FinOps
+- Computer Use
+- CFO
 apis: []
+common:
+- type: Website
+  url: https://www.zalos.ai
+- type: Support
+  url: https://www.zalos.ai/contact-us
+- type: TrustCenter
+  url: https://www.zalos.ai/security
+- type: Compliance
+  url: https://www.zalos.ai/security
+- type: Careers
+  url: https://www.zalos.ai/careers
+- type: Newsroom
+  url: https://www.zalos.ai/newsroom
+- type: TrustCenter
+  name: Trust posture (SOC 2 Type II, GDPR)
+  url: security/zalos-trust-center.yml
+- type: DomainSecurity
+  url: security/zalos-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
